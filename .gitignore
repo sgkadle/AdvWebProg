@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+# Created by .ignore support plugin (hsz.mobi)
+>>>>>>> origin/master
 ### Go template
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
@@ -18,10 +22,24 @@ _cgo_defun.c
 _cgo_gotypes.go
 _cgo_export.*
 
+<<<<<<< HEAD
+=======
+#Webstorm
+*.iml
+
+#Directory-based project format:
+.idea/workspace.xml
+**/.idea/workspace.xml
+
+
+>>>>>>> origin/master
 _testmain.go
 
 *.exe
 *.test
 *.prof
 
+<<<<<<< HEAD
 # Created by .ignore support plugin (hsz.mobi)
+=======
+>>>>>>> origin/master
