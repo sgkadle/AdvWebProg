@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;Presentation-11&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../go/src/.DS_Store" />
+      <root url="file://$PROJECT_DIR$/../go/src/code.google.com" />
+      <root url="file://$PROJECT_DIR$/../go/src/golang.com" />
+      <root url="file://$PROJECT_DIR$/../go/src/github.com" />
+      <root url="file://$PROJECT_DIR$/../go/src/google.golang.org" />
+    </CLASSES>
+    <SOURCES />
+    <excluded>
+      <root url="file://$PROJECT_DIR$/../go/src/github.com/AdvWebProg2/.idea" />
+      <root url="file://$PROJECT_DIR$/../go/src/github.com/AdvWebProg/Presentation-10/.idea" />
+      <root url="file://$PROJECT_DIR$/../go/src/github.com/GolangTraining/.git" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://$PROJECT_DIR$/../go/src/github.com/AdvWebProg/.git" />
+      <root url="file://$PROJECT_DIR$/../go/src/github.com/AdvWebProg2/.git" />
+    </excluded>
+  </library>
+</component>
