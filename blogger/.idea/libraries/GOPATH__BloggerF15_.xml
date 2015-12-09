@@ -46,6 +46,7 @@
       <root url="file://$PROJECT_DIR$/../../src/github.com/GolangTraining/.git" />
       <root url="file://$PROJECT_DIR$/../../src/google.golang.org/grpc/interop/server/testdata" />
       <root url="file://$PROJECT_DIR$/../../src/github.com/.idea" />
+      <>
     </excluded>
   </library>
 </component>
