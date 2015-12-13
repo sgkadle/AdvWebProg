@@ -1,0 +1,51 @@
+{{ define "scene" }}
+<div class="blog-post">
+	<h2 class="blog-post-title">Wifi Calling</h2>
+	<p class="blog-post-meta">C|net.com by <a href="/profile">Steven Musil</a></p>
+
+
+<p>Verizon plans to begin rolling out Wi-Fi calling this week to some customers with Android smartphones, making it the last major US carrier to offer the wireless network feature.
+
+Verizon announced Friday it would it would push out a software update on December 8 that will allow owners of Samsung's Galaxy S6 and S6 Edge to make and receive calls using a Wi-Fi network. The feature is useful whenever customers find themselves in an area with weak or no carrier coverage.
+
+The New York-based telecommunications giant said the software update will be rolled out in phases to Samsung's flagship Android handsets. The feature is expected to be extended to additional Android smartphones and Apple's iPhone early next year, the company said.
+
+Verizon is the last of the major US wireless carriers to offer Wi-Fi calling. AT&T rolled out its Wi-Fi calling feature in October for Apple iPhones, following in the path of T-Mobile and Sprint. Wireless carriers have been touting Wi-Fi networks as a way to improve call quality as well as extend coverage of their voice networks.
+
+Wi-Fi is a useful technology for this since it uses unlicensed wireless spectrum, but there are challenges with the technology as well. It's short-range means that users often must hand-off between multiple networks if they are at all mobile. Because the spectrum is unlicensed, airwaves can be congested and interference between different Wi-Fi networks may occur.
+
+Wi-Fi calling will begin rolling out to Verizon almost a month after the Federal Communications Commission granted Verizon's request for a waiver for the service. The waiver is necessary because Wi-Fi calling doesn't meet FCC rules about accessibility for speech- and hearing-impaired people.
+
+In addition to T-Mobile, Sprint and AT&T, there are a number of Wi-Fi only carriers that default to Wi-Fi first before connecting to a cellular network. These include Republic Wireless, Scratch Wireless, as well as Google's nascent Project Fi , which launched in April and is compatible with the Google Nexus 6P , 5X and 6.
+
+Verizon is promoting the feature as part of its "Advanced Calling" voice-over LTE service, considered the next step in voice calls because it runs completely on Internet technology and promises features such as clearer calls and the integration of video and voice services. All Wi-Fi calls placed to US numbers are free, but international calls will be billed at regular rates, Verizon said.
+
+</p>
+</div>
+{{ end }}
+{{ define "blog-footer" }}
+<footer class="blog-footer">
+	<a href="#">Back to top</a>
+</footer>
+{{ end }}
+
+
+{{ define "blog-preview" }}
+<a class="list-group-item" href="/view">
+	{{ template "user-thumbnail"}}
+	<h3>Blog Title</h3>
+	<h4>Blog Owner</h4>
+	<p>Hey this is an example</p>
+
+</a>
+{{ end }}
+
+{{ define "blog-links" }}
+<div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+	<div class="sidebar-module sidebar-module-inset">
+		<a class="join-request" href="/api/join">
+			<button class="btn btn-primary">Join</button>
+		</a>
+	</div>
+</div>
+{{ end }}
